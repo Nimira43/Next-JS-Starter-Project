@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&family=Red+Rose:wght@300..700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
   height: 100%;
 }
 
 body {
   height: 100%;
   margin: 0;
-  background: linear-gradient(180deg, #232029, #231e2d);
-  color: #ddd8e4;
+  background: linear-gradient(180deg, black, orangered);
+  color: beige;
+  text-shadow: 2px 2px 0 black;
 }
 
 main {
@@ -22,7 +23,7 @@ main {
 }
 
 main img {
-  width: 8rem;
+  width: 12rem;
   height: 8rem;
   object-fit: cover;
   filter: drop-shadow(0 0 4px #f6c363);
@@ -31,8 +32,8 @@ main img {
 h1 {
   font-size: 3rem;
   margin: 3rem auto;
-  color: #ede9f3;
-  font-family: 'Poppins', sans-serif;
+  color: beige;
+  font-family: 'Pontano Sans', sans-serif;
 }
 
 p {
